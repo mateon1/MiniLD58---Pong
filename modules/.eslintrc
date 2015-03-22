@@ -1,0 +1,13 @@
+{
+    "ecmaFeatures": {
+        "globalReturn": true
+    },
+    "globals": {
+        "deps": false,
+        "done": false
+    },
+    "rules": {
+        "no-eval": 1,
+        "strict": [2, "global"], // We are in function scope since modules are wrapped
+    }
+}

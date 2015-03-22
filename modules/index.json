@@ -1,0 +1,16 @@
+{
+    "mainModule": "exampleModule",
+    "modules": {
+        // "exampleModule" is a module name, but it can be a full path.
+        "exampleModule": {
+            // Metadata goes here, not yet sure what metadata could go here.
+            // pathOverride: "URL, relative to loader, or absolute (above default modules folder)", defaults to modules/[modulepath], does not include extension but includes name
+            // author <mateon1, someotherguy>
+            // contributors <[mateon1, someotherguy], [mateon1, someotherotherguy]>
+            // repo <github:mateon1/somerepo, bitbucket:mateon1/someotherrepo>
+            // version (can be used for commit, I guess, I dunno)
+            // I guess anything that can be put here, but only pathOverride has an effect, I think
+            // deps are loaded from [path].json
+        }
+    }
+}
